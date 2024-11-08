@@ -41,7 +41,7 @@ nav a:hover{
   transition: transform 0.1s;
 }
 .grafico-container{
-  marging: 5rem;
+  margng: 5rem;
 }
 .graficos-container__texto {
   font-size: 1.3rem;
@@ -50,7 +50,7 @@ nav a:hover{
   border: var(--secundary-color) solid 2px
 }
   span{
-    font-weinght: bold;
+    font-weight: bold;
     color: var (--secundary-color)
   }
 
