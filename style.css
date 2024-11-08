@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --cor-principal:#70b85e;
-    --cor-secudaria: #50a34d;
-    --cor-texto: #000000;
+    --bg-color:#70b85e;
+    --primary-color: #50a34d;
+    --secundary-color: #000000;
     --cor-de-fundo: #066d0b;
     --font: "Nunito Sans", sans-serif;
 }
 body{
-  background-color: var(--cor-principal);  
-  color: var(--cor-texto);
+  background-color: var(--bg-color);  
+  color: var(--primary-color);
   font-family: var(--font);
   height: 100vh;
   margin: 0;
 }
-.cabecalho{
-    background-color: var(--cor-secudaria);
+header {
+    background-color: var(--primary-color);
     text-align: center;
+    padding: 1px;
 }
 .cabecalho__titulo{
   font-size: 2rem;
-  color: var(--cor-texto);
+  color: var(--bg-color);
   font-weight: 700;
 }
 nav{
@@ -30,8 +31,8 @@ nav{
 }
 nav a {
   text-decoration: none;
-  color: var(--cor-texto);
-  margin: 0 2rem 1rem 0;
+  color: var(--bg-color);
+  margin: 0 2rem 1rem 0rem;
   font-size: 1.2rem;
 }
 nav a:hover{
@@ -39,6 +40,21 @@ nav a:hover{
   transform: scale(0.90);
   transition: transform 0.1s;
 }
+.grafico-container{
+  marging: 5rem;
+}
+.graficos-container__texto {
+  font-size: 1.3rem;
+  text-align:center;
+  padding: 2rem;
+  border: var(--secundary-color) solid 2px
+}
+  span{
+    font-weinght: bold;
+    color: var (--secundary-color)
+  }
+
+
 footer{
   display: flex;
   align-items: center;
